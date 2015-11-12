@@ -1,0 +1,25 @@
+{
+  "name": "io-content-js",
+  "homepage": "https://github.com/appsoftware/io-content-js",
+  "authors": [
+    "Gareth Brown <gareth.brown@appsoftware.com>"
+  ],
+  "description": "I/O Content CMS API JavaScript helper library",
+  "main": "dist/io-content.js",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "CMS",
+    "API",
+    "content"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

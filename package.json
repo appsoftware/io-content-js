@@ -1,0 +1,9 @@
+{
+  "name": "io-content-js",
+  "version": "1.0.0",
+  "description": "I/O Content CMS API JavaScript helper library",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-minify": "0.0.5"
+  }
+}
