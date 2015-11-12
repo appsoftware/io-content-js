@@ -113,7 +113,7 @@ function ContentClient() {
 	this.contentClientBaseParameters = {
 
 		apiVersion: 'v1.0',
-		apiEndPoint: 'https://iocontent.com/api/',
+		apiEndPoint: 'https://iocontent.com/',
 		subAccountKey: null,
 		contentType: null
 	};
