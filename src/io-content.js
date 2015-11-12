@@ -106,6 +106,10 @@ function ContentClient() {
 		return xmlhttp;
 	}
 
+	// Default API version and endpoint do not need specifying
+	// when building request. subAccountKey and contentType
+	// must always be specified.
+	
 	this.contentClientBaseParameters = {
 
 		apiVersion: 'v1.0',
