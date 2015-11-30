@@ -49,7 +49,7 @@ Essentially the first step is to create ContentClient and configure the **sub ac
 		// Set the page title, could also be used to set the contents of an H1 element
 		// and update a breadcrumb...
 
-		document.title = responseObj[0].title;
+		document.title = responseObj.data[0].title;
 	}
 
 	// Create ContentClient and run query against the REST API
