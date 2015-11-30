@@ -44,7 +44,7 @@ Essentially the first step is to create ContentClient and configure the **sub ac
 		// In JS api, an array of content objects is always returned, even
 		// where the query would always limit the result set to a single content entity
 
-		document.getElementById('content-place-holder').innerHTML = responseObj[0].content;
+		document.getElementById('content-place-holder').innerHTML = responseObj.data[0].content;
 
 		// Set the page title, could also be used to set the contents of an H1 element
 		// and update a breadcrumb...
