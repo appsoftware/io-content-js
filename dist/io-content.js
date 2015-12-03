@@ -113,7 +113,7 @@ function ContentClient() {
 	this.contentClientBaseParameters = {
 
 		apiVersion: 'v1.0',
-		apiEndPoint: 'https://iocontent.com/',
+		apiEndPoint: 'https://api.iocontent.com/',
 		subAccountKey: null,
 		contentType: null
 	};
@@ -126,7 +126,7 @@ function ContentClient() {
 			this.contentClientBaseParameters.apiEndPoint += '/';
 		}
 
-		var url = this.contentClientBaseParameters.apiEndPoint + 'api/' + this.contentClientBaseParameters.apiVersion + '/content/' + this.contentClientBaseParameters.subAccountKey + '/' + this.contentClientBaseParameters.contentType;
+		var url = this.contentClientBaseParameters.apiEndPoint + this.contentClientBaseParameters.apiVersion + '/content/' + this.contentClientBaseParameters.subAccountKey + '/' + this.contentClientBaseParameters.contentType;
 
 		if (query)
 		{
