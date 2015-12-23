@@ -1,4 +1,4 @@
-# io-content-js (BETA)
+# io-content-js
 
 ### I/O Content ([https://www.iocontent.com](http://www.iocontent.com)) client helper library
 
